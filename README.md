@@ -17,16 +17,16 @@
 ## Continuous Deployment using AWS Code Pipeline and S3 ⚙️☁️
 The game leverages AWS services for seamless deployment and hosting. Here’s how it works:
 
-1. **S3 Bucket Hosting:**
-    - Create an S3 bucket to host the game as a static website.
-    - Set proper permissions to allow public access to the game files.
+1. **S3 Bucket Hosting:**<br/>
+    • Create an S3 bucket to host the game as a static website.<br/>
+    • Set proper permissions to allow public access to the game files.
 
-2. **AWS CodePipeline:**
-    - Automate your deployment process.
-    - The pipeline pulls code from your GitHub repository and deploys it to the S3 bucket whenever changes are      detected.
+2. **AWS CodePipeline:**<br/>
+    • Automate your deployment process.<br/>
+    • The pipeline pulls code from your GitHub repository and deploys it to the S3 bucket whenever changes are      detected.
 
-3. **End-to-End Workflow:**
-    - Modify your code on GitHub → The pipeline detects the change → Updates are deployed to S3 automatically.
+3. **End-to-End Workflow:**<br/>
+    • Modify your code on GitHub → The pipeline detects the change → Updates are deployed to S3 automatically.
 
 ## The Deployment Environment 🚀
 - **Hosting:** The game is deployed and hosted on an S3 bucket for scalability and speed.
