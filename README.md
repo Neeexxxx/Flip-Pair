@@ -36,9 +36,9 @@ The game leverages AWS services for seamless deployment and hosting. Here’s ho
 The pipeline is created using AWS Code Pipeline.  The pipeline pulls the code from GitHub, and deploys it to S3 whenever a change is detected in the code.
 
 ## Technologies Used 🛠️
-**Frontend:** HTML, CSS, JavaScript
-**AWS Services:** S3, CodePipeline
-**Version Control:** GitHub
+**Frontend:** HTML, CSS, JavaScript  
+**AWS Services:** S3, CodePipeline  
+**Version Control:** GitHub  
 
 ## Cost 💰
 - The game utilizes AWS Free Tier eligible services, ensuring low-cost deployment during development.
